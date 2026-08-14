@@ -1,0 +1,2 @@
+config SHIELD_KUMARA_HW
+    def_bool $(shields_list_contains,kumara_hw)
