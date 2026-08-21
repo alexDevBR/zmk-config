@@ -7,20 +7,43 @@
 
         default_layer {
             bindings = <
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G
-                &kp H &kp I &kp J &kp K &kp L &kp M &kp N &kp O
+                &kp ESC    &kp SQT    &kp TAB    &kp CAPS    &kp LSHFT  &kp LCTRL
+                &kp F1     &kp N1     &kp Q      &kp A       &kp BSLH   &kp LGUI
+                &kp F2     &kp N2     &kp W      &kp S       &kp Z      &kp LALT
+                &kp F3     &kp N3     &kp E      &kp D       &kp X
+                &kp F4     &kp N4     &kp R      &kp F       &kp C
+                &kp F5     &kp N5     &kp T      &kp G       &kp V
+                &kp F6     &kp N6     &kp Y      &kp H       &kp B      &kp SPACE
+                &kp F7     &kp N7     &kp U      &kp J       &kp N
+                &kp F8     &kp N8     &kp I      &kp K       &kp M
+                &kp F9     &kp N9     &kp O      &kp L       &kp COMMA  &kp RALT
+                &kp F10    &kp N0     &kp P      &kp SEMI    &kp DOT    &mo 1
+                &kp F11    &kp MINUS  &kp SQT    &kp GRAVE   &kp SEMI   &kp K_APP
+                &kp F12    &kp EQUAL  &kp LBKT   &kp RBKT    &kp FSLH   &kp RCTRL
+                &kp PSCRN  &kp INS    &kp DEL    &kp ENTER   &kp RSHFT  &kp LEFT
+                &kp SLCK   &kp HOME   &kp END    &kp BSPC    &kp UP     &kp DOWN
+                &kp PAUSE  &kp PG_UP  &kp PG_DN  &kp RIGHT
+            >;
+        };
 
-                &kp P &kp Q &kp R &kp S &kp T &kp U &kp V &kp W
-                &kp X &kp Y &kp Z &kp N1 &kp N2 &kp N3 &kp N4 &kp N5
-
-                &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp TAB
-                &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I
-
-                &kp O &kp P &kp A &kp S &kp D &kp F &kp G &kp H
-                &kp J &kp K &kp L &kp Z &kp X &kp C &kp V &kp B
-
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8
-                &kp N9 &kp N0 &kp SPACE &kp LSHIFT &kp LCTRL &kp LALT &kp RALT &kp RCTRL
+        fn_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans
             >;
         };
     };
