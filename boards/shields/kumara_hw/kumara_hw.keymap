@@ -22,7 +22,7 @@
                 &kp F12    &kp EQUAL  &kp LBKT   &kp RBKT    &kp FSLH   &kp RCTRL
                 &kp PSCRN  &kp INS    &kp DEL    &kp ENTER   &kp RSHFT  &kp LEFT
                 &kp SLCK   &kp HOME   &kp END    &kp BSPC    &kp UP     &kp DOWN
-                &kp PAUSE  &kp PG_UP  &kp PG_DN  &kp RIGHT
+                &kp PAUSE_BREAK &kp PG_UP &kp PG_DN &kp RIGHT
             >;
         };
 
