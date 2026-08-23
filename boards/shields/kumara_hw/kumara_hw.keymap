@@ -7,8 +7,8 @@
 
         default_layer {
             bindings = <
-                &kp ESC    &kp SQT    &kp TAB    &kp CAPS    &kp LSHFT  &kp LCTRL
-                &kp F1     &kp N1     &kp Q      &kp A       &kp BSLH   &kp LGUI
+                &kp ESC    &kp GRAVE  &kp TAB    &kp CAPS    &kp LSHFT  &kp LCTRL
+                &kp F1     &kp N1     &kp Q      &kp A       &kp NUBS   &kp LGUI
                 &kp F2     &kp N2     &kp W      &kp S       &kp Z      &kp LALT
                 &kp F3     &kp N3     &kp E      &kp D       &kp X
                 &kp F4     &kp N4     &kp R      &kp F       &kp C
@@ -18,8 +18,8 @@
                 &kp F8     &kp N8     &kp I      &kp K       &kp M
                 &kp F9     &kp N9     &kp O      &kp L       &kp COMMA  &kp RALT
                 &kp F10    &kp N0     &kp P      &kp SEMI    &kp DOT    &mo 1
-                &kp F11    &kp MINUS  &kp SQT    &kp GRAVE   &kp SEMI   &kp K_APP
-                &kp F12    &kp EQUAL  &kp LBKT   &kp RBKT    &kp FSLH   &kp RCTRL
+                &kp F11    &kp MINUS  &kp LBKT   &kp SQT     &kp FSLH   &kp K_APP
+                &kp F12    &kp EQUAL  &kp RBKT   &kp BSLH    &kp INT1   &kp RCTRL
                 &kp PSCRN  &kp INS    &kp DEL    &kp ENTER   &kp RSHFT  &kp LEFT
                 &kp SLCK   &kp HOME   &kp END    &kp BSPC    &kp UP     &kp DOWN
                 &kp PAUSE_BREAK &kp PG_UP &kp PG_DN &kp RIGHT
